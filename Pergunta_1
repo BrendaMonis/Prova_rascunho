@@ -8,4 +8,9 @@ pwd
 ls -l #Tal comando irá gerar uma lista larga dos arquivos na pasta e, além disso, irá exibir as permissões
 
 #Posteriormente, essa lista de arquivos serão redirecionados para um novo arquivo de texto (lista_HOME.txt) 
+ls -l > lista_HOME.txt 
+#Para verificar se tudo ocorreu bem basta adicionar o seguinte comando no terminal: nano lista_HOME.txt 
+
+#Por último, deseja-se saber o data atual e, para isso, 
+
 
