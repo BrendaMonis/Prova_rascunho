@@ -1,11 +1,36 @@
+  GNU nano 6.2                                                 script_hipotenusa.py                                                           
 #!/usr/bin/env python3
 import sys
 import math
+import random
 
-#Para calcular o inteiro da hipotenusa ao quadrado do triângulo retângulo com lado a e b, é necessário criar tais variáveis. 
-#É importante relembrar que a e b são números inteiros, positivo e ambos menores que 500. 
-a = '30'
-b = '40'
+#Para calcular o inteiro da hipotenusa ao quadrado do triângulo retângulo com lado a e b, é necessário criar tais variáveis
+#É importante relembrar que a e b são números inteiros, positivo e ambos menores que 500
 
-#Antes de calcular a hipotenusa é necessário verificar se os dados inseridos são do tipo desejado. 
+a= random.randint(1,500) #sorteando um número para a entre 1 e 500
+print(a)
+
+b= random.randint(1,500)
+print(b)
+
+#Além disso, antes de calcular a hipotenusa é necessário verificar se os dados inseridos são do tipo desejado
 #Para isso, será inserido um controle no código
+
+if (a < 500):
+ print(a, 'é um número menor que 500')
+else:
+ print(a, 'é um número maior que 500')
+
+
+testar se é inteiro (enrolada nessa parte)
+
+if num.isnumeric(a):
+     num = int(num)
+     return num
+
+
+  elif num.replace(".", "").isnumeric(a):
+     num = float(num)
+     return num
+  else:
+     return num # é string 
