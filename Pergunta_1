@@ -11,6 +11,7 @@ ls -l #Tal comando irá gerar uma lista larga dos arquivos na pasta e, além dis
 ls -l > lista_HOME.txt 
 #Para verificar se tudo ocorreu bem basta adicionar o seguinte comando no terminal: nano lista_HOME.txt 
 
-#Por último, deseja-se saber o data atual e, para isso, 
+#Por último, deseja-se saber o data atual e, para isso, será inserido um comando que imprima a data atual
+date
 
 
