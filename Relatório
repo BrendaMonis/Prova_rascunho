@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import sys
+
+# Dicionário das minhas coisas favoritas
+fav_things = {'animal' : 'cat', 'book' : 'The Miracle Morning', 'color' : 'blue', 'tree' = 'flam$
+print(fav_things['book']) #imprimindo na tela meu livro favorito
+fav_book = 'book'
+print(fav_things[fav_book])
+print(fav_things['tree'])
