@@ -2,9 +2,40 @@
 
 import sys
 
-# Dicionário das minhas coisas favoritas
-fav_things = {'animal' : 'cat', 'book' : 'The Miracle Morning', 'color' : 'blue', 'tree' = 'flam$
-print(fav_things['book']) #imprimindo na tela meu livro favorito
-fav_book = 'book'
-print(fav_things[fav_book])
-print(fav_things['tree'])
+#Para que seja possível visualizar os comandos é necessário mudar as permissões de um arquivo ou pasta no terminal
+#Para isso, basta rodar o seguinte comando: chmod +x relatório_python_05.py
+#Após isso, é necessário adicionar o comando: ./relatório_python_05.py
+
+#Primeiramente, deseja-se construir um  dicionário das minhas coisas favoritas
+ #Dicionário com as minhas coisas favoritas
+fav_dict = {
+             'animal' : 'cat',
+             'book' : 'The Miracle Morning', 
+             'color' : 'blue',
+             'tree' : 'flamboyant'
+           }
+
+print(fav_dict, 'this is a dictionary with my favorite things')
+
+#Em seguida, pretende-se imprimir o meu livro favorito que está no dicionário e, após isso, utilizar uma nova variável para a sua impressão
+
+ #Impressão do meu livro favorito
+print('My favorite book is:', fav_dict['book'])
+
+ #Impressão do meu livro favorito utilizando uma váriavel na chave
+fav_things = 'book'
+print('My favorite book is:', fav_dict[fav_things], '(again)')
+
+#Posteriormente, pede-se para imprimir a minha árvore favorita que está no dicionário
+ #Impressão da minha árvore favorita
+print('My favorite tree is:', fav_dict['tree'])
+
+#Além disso, deseja-se acrescentar um novo item ao dicionário e, sem seguida, atribuí-lo como o novo valor do fav_thing
+
+ #Acrescentando meu orgão/organismo favorito ao dicionário
+fav_dict['organism'] = 'brain'
+print('My favorite organism is:', fav_dict['organism'])
+
+ #Atribuindo 'organism' como o novo valor do fav_thing
+fav_thing = 'organism'
+print(fav_dict[fav_thing], 'is the new value of fav_thing')
