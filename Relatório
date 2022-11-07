@@ -30,12 +30,19 @@ print('My favorite book is:', fav_dict[fav_things], '(again)')
  #Impressão da minha árvore favorita
 print('My favorite tree is:', fav_dict['tree'])
 
-#Além disso, deseja-se acrescentar um novo item ao dicionário e, sem seguida, atribuí-lo como o novo valor do fav_thing
+#Além disso, deseja-se acrescentar um novo item ao dicionário e, em seguida, atribuí-lo como o novo valor do fav_thing
 
  #Acrescentando meu orgão/organismo favorito ao dicionário
 fav_dict['organism'] = 'brain'
+print(fav_dict, 'this is my new dictionary with my favorite things')
 print('My favorite organism is:', fav_dict['organism'])
+
 
  #Atribuindo 'organism' como o novo valor do fav_thing
 fav_thing = 'organism'
 print(fav_dict[fav_thing], 'is the new value of fav_thing')
+
+#Atribuindo um novo valor ao meu organismo favorito 
+fav_dict['organism'] = 'eyes'
+print(fav_dict, 'this is my new dictionary with my favorite things')
+print('My new favorite organism is:', fav_dict['organism'])
