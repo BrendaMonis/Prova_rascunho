@@ -43,6 +43,7 @@ fav_thing = 'organism'
 print(fav_dict[fav_thing], 'is the new value of fav_thing')
 
 #Atribuindo um novo valor ao meu organismo favorito 
-fav_dict['organism'] = 'eyes'
+new_organism = sys.argv[1]
+fav_dict['organism'] = new_organism
 print(fav_dict, 'this is my new dictionary with my favorite things')
 print('My new favorite organism is:', fav_dict['organism'])
