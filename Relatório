@@ -51,9 +51,19 @@ print('My new favorite organism is:', fav_dict['organism'])
 #Ademais, pretende-se adicionar um novo valor ao fav_things através da linha de comando e imprimi-lo
 
  #Adicionando um novo valor ao fav_thing
- thing = input('Enter your input: ')
+thing = input('Enter your input: ')
 fav_thing = thing
 
  #Imprimindo seu novo valor
 print('A value for the thing is :', thing)
 print('A new value for the fav_thing is :', fav_thing, ',so is the same that thing'
+
+#Em seguida, deseja-se obter o fav_dict da linha de comando e um novo valor que deverá ser introduzido pelo usuário.
+new_thing = sys.argv[2]
+print('The new_thing is: {}'.format(new_thing))
+new_favorite = input('The new_favorite is your input: ')
+
+fav_dict [new_thing] = new_favorite
+
+for every_thing in fav_dict:
+        print (every_thing, "\t", fav_dict[every_thing])
