@@ -67,3 +67,7 @@ fav_dict [new_thing] = new_favorite
 
 for every_thing in fav_dict:
         print (every_thing, "\t", fav_dict[every_thing])
+      
+#Após isso, a for loop será utilizada para imprimir novas chaves e valores ao dicionário
+for key, value in fav_dict.items():
+        print ('my {} favorite  is {}'.format(key, value))
