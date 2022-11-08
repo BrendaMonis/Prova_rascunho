@@ -51,9 +51,9 @@ print('My new favorite organism is:', fav_dict['organism'])
 #Ademais, pretende-se adicionar um novo valor ao fav_things através da linha de comando e imprimi-lo
 
  #Adicionando um novo valor ao fav_thing
-str = input('Enter your input: ')
-fav_thing = str
+ thing = input('Enter your input: ')
+fav_thing = thing
 
  #Imprimindo seu novo valor
-print('A new value for the str is :', str)
-print('A new value for the fav_thing is :', fav_thing, ',so is the same that str')
+print('A value for the thing is :', thing)
+print('A new value for the fav_thing is :', fav_thing, ',so is the same that thing'
